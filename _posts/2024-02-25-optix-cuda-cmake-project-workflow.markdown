@@ -1120,6 +1120,4 @@ The [Standard CUDA to PTX workflow](#cuda_compilation) is simple and straightfor
 
 The [Advanced CUDA to PTX workflow](cuda_compilation_full_control) is more complex but provides full control over the nvcc command line.
 
-If you'd like to have a look at how my path tracer project turned out, you can find it at [https://github.com/markcmagro/optix_pt](https://github.com/markcmagro/optix_pt).
-
 ---
