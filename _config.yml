@@ -24,7 +24,8 @@ author: ""
 description: >- # this means to ignore newlines until "baseurl:"
 baseurl: "" # the subpath of your site, e.g. /blog
 #url: "" # the base hostname & protocol for your site, e.g. http://example.com
-url: "http://markcmagro.com"
+#url: "http://markcmagro.com"
+url: "https://markcmagro.github.io"
 
 # Edit social-media.yml for social media IDs.
 #github_username: markcmagro
