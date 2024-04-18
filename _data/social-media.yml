@@ -1,0 +1,47 @@
+email:
+  id: 'mcrmagro@gmail.com'
+  href: 'mailto:'
+  title: 'Email'
+  fa-icon: 'fa-envelope'
+
+#facebook:
+#  id: 'your-facebook-username'
+#  href: 'https://www.facebook.com/'
+#  title: 'Facebook'
+#  fa-icon: 'fa-facebook-square'
+
+#twitter:
+#  id: 'your-twitter-name'
+#  href: 'https://www.twitter.com/'
+#  title: 'Twitter'
+#  fa-icon: 'fa-twitter-square'
+
+linkedin:
+  id: 'markcmagro'
+  href: 'https://www.linkedin.com/in/'
+  title: 'LinkedIn'
+  fa-icon: 'fa-linkedin'
+
+github:
+  id: 'markcmagro'
+  href: 'https://github.com/'
+  title: 'GitHub'
+  fa-icon: 'fa-github'
+
+#gitlab:
+#  id: 'markmagro'
+#  href: 'https://gitlab.com/'
+#  title: 'GitLab'
+#  fa-icon: 'fa-gitlab'
+
+youtube:
+  id: 'markmagro'
+  href: 'https://www.youtube.com/'
+  title: 'YouTube'
+  fa-icon: 'fa-youtube'
+
+#telegram:
+#  id: 'markcmagro'
+#  href: 'https://t.me/'
+#  title: 'Telegram'
+#  fa-icon: 'fa-telegram'
