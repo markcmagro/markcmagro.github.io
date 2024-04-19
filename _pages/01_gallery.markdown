@@ -7,25 +7,7 @@ redirect_from:
  - /
 ---
 
-<!--
-![Japanese Room](/assets/images/japanese_room.jpg)
-![VR Gallery](/assets/images/vr_gallery.jpg)
-![Fireplace Room](/assets/images/fireplace_room.jpg)
--->
-
-<!--
-<a href="/assets/images/japanese_room.jpg"><img src="/assets/images/japanese_room.jpg" width="45%"></a>
-<a href="/assets/images/vr_gallery.jpg"><img src="/assets/images/vr_gallery.jpg" width="45%"></a>
--->
-
-<!--
-<div class="grid-container">
-  <div><img src="/assets/images/japanese_room.jpg"></div>
-  <div><img src="/assets/images/vr_gallery.jpg"></div>
-  <div>Japanese Room</div>
-  <div>VR Gallery</div>
-</div>
--->
+{% include carousel.html height="50" unit="%" duration="5" number="1" %}
 
 <div class="main_block">
     <div class="inner_block">
