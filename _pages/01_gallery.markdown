@@ -5,9 +5,11 @@ inner_title: Gallery
 permalink: /gallery/
 redirect_from:
  - /
+image_sliders:
+ - slider1
 ---
 
-{% include carousel.html height="50" unit="%" duration="5" number="1" %}
+{% include slider.html selector="slider1" %}
 
 <div class="main_block">
     <div class="inner_block">

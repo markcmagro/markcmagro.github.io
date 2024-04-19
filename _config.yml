@@ -75,8 +75,7 @@ exclude:
   - _pages_/03_posts.markdown # disable posts page
   - _projects_ # remove all projects from projects page
   - _projects_/02_project2.markdown # remove a specific project
-  - _posts/2024-02-26-post2.markdown # remote a specific post
-  - _pages/06_carousel.markdown
+  - _posts/2024-02-26-post2.markdown # remove a specific post
 
 collections:
   projects:
@@ -84,22 +83,3 @@ collections:
 
 disqus:
   shortname: optix-cuda-cmake-project-workflow
-
-carousels:
-  - images: 
-    - image: /assets/images/japanese_room.jpg
-    - image: /assets/images/vr_gallery.jpg
-    - image: /assets/images/fireplace_room_detail.jpg
-    - image: /assets/images/fireplace_room.jpg
-    - image: /assets/images/metals.jpg
-    - image: /assets/images/transmissive.jpg
-    - image: /assets/images/ior.jpg
-    - image: /assets/images/coffee.jpg
-    - image: /assets/images/waterbottle_metal.jpg
-    - image: /assets/images/waterbottle_plastic.jpg
-    - image: /assets/images/shoe_blue.jpg
-    - image: /assets/images/shoe_pink.jpg
-    - image: /assets/images/shoe_black.jpg
-    - image: /assets/images/wall_two_halves.jpg
-    - image: /assets/images/alliance_ring.jpg
-    - image: /assets/images/alpha_blend_mode_test.jpg
