@@ -1,5 +1,5 @@
 - selector: slider1
-  bullets: true
+  bullets: false
   captions: false
   images:
     - src: /assets/images/japanese_room.jpg
