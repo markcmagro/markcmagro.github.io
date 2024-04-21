@@ -52,7 +52,7 @@ I will be using CMake with the Ninja generator (v1.10.2) and I will be compiling
 
 I have several OptiX versions installed, coexisting peacefully. I create a user environment variable for each version, specifying its path:
 
-![OptiX Environment Variables](/assets/images/optix_environment_variables.jpg)
+![OptiX Environment Variables](/assets/images/post_2024-02-25/optix_environment_variables.jpg)
 
 These environment variables come in handy inside CMakeLists.txt because CMake does not have a built-in find_package command for OptiX. In CMakeLists.txt the environment variable for OptiX 7.1 is accessed as $ENV{OPTIX_PATH_7_1_0}.
 
@@ -63,11 +63,11 @@ Note that I do not install OptiX in the default location chosen by the installer
 
 To get a "CMake Project" template when creating a new Visual Studio project you need to have "C++ CMake tools for Windows" installed. Go to "Tools" \| "Get Tools and Features..." from the menu. This will launch the installer app where you can add components to Visual Studio. Under "Workloads" you need to have "Desktop development with C++" ticked. In the "Installation details" pane on the right, under "Desktop development with C++" \| "Optional", tick "C++ CMake tools for Windows".
 
-![Visual Studio Installer](/assets/images/vs_installer.jpg)
+![Visual Studio Installer](/assets/images/post_2024-02-25/vs_installer.jpg)
 
 Now when you create a new Visual Studio project, you can specify "CMake Project".
 
-![Visual Studio New Project](/assets/images/vs_new_project.jpg)
+![Visual Studio New Project](/assets/images/post_2024-02-25/vs_new_project.jpg)
 
 The project created in this way has some dummy source code (a .cpp file and a .h file), a barebones CMakeLists.txt and a CMakePresets.json file. The dummy source code files can be deleted right away as they will be replaced by your own sources. The contents of CMakeLists.txt can be discarded too as you would want to write your own from scratch. Keep the CMakePresets.json as it is decent and useful.
 
@@ -229,15 +229,15 @@ Here is my CMakePresets.json for reference:
 
 This is how my toolbar looks like after adding the build presets. Note that it may take a while for the changes to take effect. Sometimes I need to restart Visual Studio *and* wait a bit until my changes are applied.
 
-![Visual Studio Toolbar Unified](/assets/images/vs_toolbar_unified.jpg)
+![Visual Studio Toolbar Unified](/assets/images/post_2024-02-25/vs_toolbar_unified.jpg)
 
 You can also set the toolbar to display both the configuration presets and the build presets. Go to Tools \| Options \| CMake \| General and untick "Enable unified build and configuration preset menu".
 
-![Visual Studio CMake Options](/assets/images/vs_cmake_options.jpg)
+![Visual Studio CMake Options](/assets/images/post_2024-02-25/vs_cmake_options.jpg)
 
 Again, you may need to restart Visual Studio. Once the change takes effect, the toolbar will look like this:
 
-![Visual Studio Toolbar Unified](/assets/images/vs_toolbar_not_unified.jpg)
+![Visual Studio Toolbar Unified](/assets/images/post_2024-02-25/vs_toolbar_not_unified.jpg)
 
 The second dropdown list from the left is for configuration presets, and the dropdown to its right is for build presets.
 
@@ -1109,7 +1109,7 @@ cmake --build out/build/x64-debug --target install
 
 This correctly populates the out/install/x64-debug directory:
 
-![The install directory](/assets/images/install_directory.jpg)
+![The install directory](/assets/images/post_2024-02-25/install_directory.jpg)
 
 <a id="conclusion"></a>
 ## 10. Conclusion
