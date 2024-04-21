@@ -2,37 +2,37 @@
   bullets: false
   captions: false
   images:
-    - src: /assets/images/japanese_room.jpg
+    - src: /assets/images/gallery/japanese_room.jpg
       alt: Japanese Room
-    - src: /assets/images/vr_gallery.jpg
+    - src: /assets/images/gallery/vr_gallery.jpg
       alt: VR Gallery
-    - src: /assets/images/fireplace_room_detail.jpg
+    - src: /assets/images/gallery/fireplace_room_detail.jpg
       alt: Fireplace Room (detail)
-    - src: /assets/images/fireplace_room.jpg
+    - src: /assets/images/gallery/fireplace_room.jpg
       alt: Fireplace Room
-    - src: /assets/images/metals.jpg
+    - src: /assets/images/gallery/metals.jpg
       alt: Metals
-    - src: /assets/images/transmissive.jpg
+    - src: /assets/images/gallery/transmissive.jpg
       alt: Transmissive
-    - src: /assets/images/ior.jpg
+    - src: /assets/images/gallery/ior.jpg
       alt: IOR
-    - src: /assets/images/coffee.jpg
+    - src: /assets/images/gallery/coffee.jpg
       alt: Coffee
-    - src: /assets/images/waterbottle_metal.jpg
+    - src: /assets/images/gallery/waterbottle_metal.jpg
       alt: Waterbottle (metal)
-    - src: /assets/images/waterbottle_plastic.jpg
+    - src: /assets/images/gallery/waterbottle_plastic.jpg
       alt: Waterbottle (plastic)
-    - src: /assets/images/shoe_blue.jpg
+    - src: /assets/images/gallery/shoe_blue.jpg
       alt: Shoe (blue)
-    - src: /assets/images/shoe_pink.jpg
+    - src: /assets/images/gallery/shoe_pink.jpg
       alt: Shoe (pink)
-    - src: /assets/images/shoe_black.jpg
+    - src: /assets/images/gallery/shoe_black.jpg
       alt: Shoe (black)
-    - src: /assets/images/wall_two_halves.jpg
+    - src: /assets/images/gallery/wall_two_halves.jpg
       alt: Wall (without and with normal map)
-    - src: /assets/images/alliance_ring.jpg
+    - src: /assets/images/gallery/alliance_ring.jpg
       alt: Alliance Ring
-    - src: /assets/images/alpha_blend_mode_test.jpg
+    - src: /assets/images/gallery/alpha_blend_mode_test.jpg
       alt: Alpha Blend Mode Test
   settings:
     height: "'auto'"
