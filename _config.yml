@@ -44,6 +44,7 @@ font_awesome: b96590e872.js
 
 include:
   - _pages
+  - _tests
  
 # Build settings
 theme: minima
